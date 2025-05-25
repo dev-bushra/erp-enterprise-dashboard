@@ -1,0 +1,7 @@
+<div *ngIf="loading$ | async">Loading...</div>
+<ul>
+  <li *ngFor="let employee of employees$ | async">
+    {{ employee.name }}
+    <button (click)="delete(employee.id)">Delete</button>
+  </li>
+</ul>
