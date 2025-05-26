@@ -1,0 +1,17 @@
+<div class="pop-padding">
+  <h2 mat-dialog-title class="warning-color warning-text">🗑️ Confirm Delete</h2>
+  <hr class="hr" />
+  <mat-dialog-content
+    >Are you sure you want to delete <b class="warning-color">{{ data.name }}</b
+    >?</mat-dialog-content
+  >
+  <hr class="hr" />
+  <mat-dialog-actions align="end">
+    <button type="button" mat-button (click)="dialogRef.close(false)">
+      Cancel
+    </button>
+    <button type="button" mat-button mat-flat-button color="warn" (click)="dialogRef.close(true)">
+      Delete
+    </button>
+  </mat-dialog-actions>
+</div>

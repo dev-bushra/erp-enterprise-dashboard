@@ -1,0 +1,47 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+mat-dialog-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+mat-dialog-content {
+  padding: 8px 0;
+}
+
+mat-dialog-actions {
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid #eee;
+
+  button {
+    min-width: 100px;
+  }
+}
+
+.primary-color {
+    color: rgb(60, 144, 255);
+}
+
+.primary-text {
+    font-weight: 500;
+    margin-bottom: 0;
+    // padding-bottom: 0;
+}
+
+.pop-padding {
+    padding: 0 .6rem .3rem;
+}
+
+hr {
+      border: 0.1px solid #eee
+}
